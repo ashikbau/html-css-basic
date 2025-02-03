@@ -27,3 +27,14 @@ nav li a{
     text-decoration: none;
     color: black;
 }
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    padding-left: 25px;
+}
+
+nav li:hover .dropdown{
+    display: block;
+}
